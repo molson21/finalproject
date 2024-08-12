@@ -1,0 +1,156 @@
+<!--Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+.nav {
+        margin-top: 0;
+        padding: 30px;
+        }
+
+.nav ul {
+    list-style-type: none;
+    font-size: large;
+    font-style: bold;
+    padding: 0px;
+    margin: 0px 70px 0px 0px;
+    line-height: 2em;
+}
+
+.nav ul li {
+    float: right;
+    display: inline;
+    margin-right: 15px;
+}
+            
+body {
+        background-image: url("swirl_pattern.png");
+        background-color: ghostwhite;
+        font-family: 'Montserrat', sans-serif;
+        }
+            
+h3 {
+        color: rebeccapurple;
+        }
+            
+a {
+        color: rebeccapurple;
+        }
+            
+.content {
+        background-color: white;
+        max-width: 65em;
+        margin: 20px auto;
+        padding: 20px 20px 20px 35px;
+        overflow: hidden;
+        }
+            
+#opening {
+        float: left;
+        width: 68%;
+        line-height: 1.5em;
+        }
+                       
+ #facts {
+        float: right;
+        width: 30%;
+        line-height: 1.5em;
+        margin-bottom: 100px;
+        }
+            
+.square-list {
+        list-style-type: square;
+        }
+            
+.clear {
+        clear: both;
+        }
+            
+#classprojects {
+        text-align: center;    
+        color: rebeccapurple;
+        border-style: none solid none solid;
+        border-width: 40px;
+        border-color: rebeccapurple;
+        margin: 250px 100px 30px 100px;
+        }
+            
+.button {
+        margin-top: 0px;
+        margin-left: 50px;
+        }
+            
+#L3 {
+        float: left;
+        width: 300px;
+        height: auto;
+        border-style: solid;
+        border-color: plum;
+        border-width: 4px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        line-height: 1.5em;
+        }
+            
+#P1 {
+        float: left;
+        width: 300px;
+        height: auto;
+        border-style: solid;
+        border-color: plum;
+        border-width: 4px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        line-height: 1.5em;
+        }
+            
+#P2 {
+        float: left;
+        width: 300px;
+        height: auto;
+        border-style: solid;
+        border-color: plum;
+        border-width: 4px;
+        margin-bottom: 20px;
+        padding: 10px;
+        line-height: 1.5em;
+        }
+            
+#P3 {
+        float: left;
+        width: 300px;
+        height: auto;
+        border-style: solid;
+        border-color: plum;
+        border-width: 4px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        line-height: 1.5em;
+        }
+            
+#P5 {
+        float: left;
+        width: 300px;
+        height: auto;
+        border-style: solid;
+        border-color: plum;
+        border-width: 4px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        line-height: 1.5em;
+        }
+            
+cite {
+        font-size: small;
+        }
+            
+footer {
+        clear: both;
+        font-size: small;
+        text-align: center;
+        padding-top: 20px;
+        }
