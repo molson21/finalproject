@@ -3,39 +3,44 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+header {
+        max-width: 65em;
+        margin: 20px auto;
+}
+
 .nav {
-        margin-top: 0;
         padding: 30px;
         }
 
 .nav ul {
-    list-style-type: none;
-    font-size: large;
-    font-style: bold;
-    padding: 0px;
-    margin: 0px 70px 0px 0px;
-    line-height: 2em;
+        list-style-type: none;
+        font-size: large;
+        font-style: bold;
+        padding: 0px;
+        margin: 0px 20px 0px 0px;
+        line-height: 2em;
+        max-width: 65em
 }
 
 .nav ul li {
-    float: right;
-    display: inline;
-    margin-right: 15px;
+        float: right;
+        display: inline;
+        margin-left: 30px;
 }
             
 body {
         background-image: url("swirl_pattern.png");
         background-color: ghostwhite;
         font-family: 'Montserrat', sans-serif;
-        }
+}
             
 h3 {
         color: rebeccapurple;
-        }
+}
             
 a {
         color: rebeccapurple;
-        }
+}
             
 .content {
         background-color: white;
@@ -43,28 +48,28 @@ a {
         margin: 20px auto;
         padding: 20px 20px 20px 35px;
         overflow: hidden;
-        }
+}
             
 #opening {
         float: left;
         width: 68%;
         line-height: 1.5em;
-        }
+}
                        
  #facts {
         float: right;
         width: 30%;
         line-height: 1.5em;
         margin-bottom: 100px;
-        }
+}
             
 .square-list {
         list-style-type: square;
-        }
+}
             
 .clear {
         clear: both;
-        }
+}
             
 #classprojects {
         text-align: center;    
@@ -73,12 +78,12 @@ a {
         border-width: 40px;
         border-color: rebeccapurple;
         margin: 250px 100px 30px 100px;
-        }
+}
             
 .button {
         margin-top: 0px;
         margin-left: 50px;
-        }
+}
             
 #L3 {
         float: left;
@@ -91,7 +96,7 @@ a {
         margin-bottom: 20px;
         padding: 10px;
         line-height: 1.5em;
-        }
+}
             
 #P1 {
         float: left;
@@ -104,7 +109,7 @@ a {
         margin-bottom: 20px;
         padding: 10px;
         line-height: 1.5em;
-        }
+}
             
 #P2 {
         float: left;
@@ -116,7 +121,7 @@ a {
         margin-bottom: 20px;
         padding: 10px;
         line-height: 1.5em;
-        }
+}
             
 #P3 {
         float: left;
@@ -129,7 +134,7 @@ a {
         margin-bottom: 20px;
         padding: 10px;
         line-height: 1.5em;
-        }
+}
             
 #P5 {
         float: left;
@@ -142,15 +147,61 @@ a {
         margin-bottom: 20px;
         padding: 10px;
         line-height: 1.5em;
-        }
+}
+
+.cake {
+    position: relative;
+}
+
+.layer {
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #7a3e2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18pt;
+    
+}
+
+.top-layer {
+    background-color: #f7c4a5;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.middle-layer {
+    background-color: #f3a683;
+    width: 350px;
+    margin-top: -10px;
+}
+
+.bottom-layer {
+    width: 450px;
+    background-color: #e77f67;
+    margin-top: -10px;
+}
+
+.plate {
+    width: 550px;
+    height: 20px;
+    background-color: #c0c0c0;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: -10px;
+}
             
 cite {
         font-size: small;
-        }
+}
             
 footer {
         clear: both;
         font-size: small;
         text-align: center;
         padding-top: 20px;
-        }
+}
