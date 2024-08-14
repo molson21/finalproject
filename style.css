@@ -167,21 +167,27 @@ a {
     
 }
 
-.top-layer {
-    background-color: #f7c4a5;
-    width: 300px;
+.picture {
+    background-color: antiquewhite;
+    height: 200px;
+    width: 210px;
     margin-top: 20px;
+}
+.top-layer {
+    background-color: #f2a06e;
+    width: 300px;
+    margin-top: -5px;
 }
 
 .middle-layer {
-    background-color: #f3a683;
+    background-color: #ef8b4d;
     width: 350px;
     margin-top: -10px;
 }
 
 .bottom-layer {
     width: 450px;
-    background-color: #e77f67;
+    background-color: #ed762c;
     margin-top: -10px;
 }
 
